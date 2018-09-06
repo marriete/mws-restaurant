@@ -44,6 +44,8 @@ header, main, footer {
   width: 100%;
 }
 #maincontent {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #f3f3f3;
   min-height: 100%;
 }
@@ -206,7 +208,7 @@ nav h1 a {
   background: blue none repeat scroll 0 0;
   height: 15%;
   right: 0;
-  top: 80px;
+  top: 8rem;
   width: 100%;
 }
 .inside #map {
@@ -250,11 +252,11 @@ nav h1 a {
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
-  padding: 140px 40px 30px;
+  padding: 1rem 2rem 3rem;
   width: 100%;
 }
 #reviews-container {
-  padding: 30px 40px 80px;
+  padding: 1rem 2rem 4rem;
 }
 #reviews-container h2 {
   color: #f58500;
