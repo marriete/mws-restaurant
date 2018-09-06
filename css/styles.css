@@ -53,8 +53,8 @@ header, main, footer {
   background-color: #444;
   color: #aaa;
   font-size: 8pt;
-  letter-spacing: 1px;
-  padding: 25px;
+  letter-spacing: 0.1rem;
+  padding: 2.5rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -206,7 +206,7 @@ nav h1 a {
 }
 .inside #map-container {
   background: blue none repeat scroll 0 0;
-  height: 15%;
+  height: 27rem;
   right: 0;
   top: 8rem;
   width: 100%;
@@ -218,7 +218,7 @@ nav h1 a {
 }
 .inside #footer {
   bottom: 0;
-  width: 50%;
+  width: 100%;
 }
 #restaurant-name {
   color: #f18200;
