@@ -280,8 +280,9 @@ nav h1 a {
   padding: 0;
 }
 #reviews-list li {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 10% 10% 870%;
   background-color: #fff;
   border: 2px solid #f3f3f3;
   list-style-type: none;
@@ -291,23 +292,46 @@ nav h1 a {
   width: 90%;
 }
 #reviews-list li p {
-  margin: 1rem 0 1rem;
+
 }
 #restaurant-hours td {
   color: #666;
 }
 .review-name, .review-date, .review-rating {
-  width: 50%;
+  width: 100%;
 }
 .review-name {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
   text-align: left;
+  align-self: center;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 .review-date {
-  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  text-align: right;
+  margin: 1rem 0 0;
 }
 .review-rating {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
   text-align: right;
+  margin: 0 0 1rem;
+}
+.review-comments {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  text-align: center;
 }
 
 /*
