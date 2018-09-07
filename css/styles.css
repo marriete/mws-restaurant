@@ -175,9 +175,10 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
+  /*min-height: 248px;*/
   /*min-width: 300px;*/
   width: 100%;
+  height: calc(width*0.75);
 }
 #restaurants-list li h1 {
   color: #f18200;
@@ -332,8 +333,7 @@ nav h1 a {
 
 /*
   TODO:
-  1) Implement grid layout for review box
-  2) Change styling of restaurant reviews 
-  3) Make restuarant review text responsive
+  1) Limit restaurant image heights to be more predictably stretched
+  2) Add media query for tablet-sized screens (increase to 2 images per column)
 
 */
