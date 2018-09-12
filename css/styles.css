@@ -254,10 +254,13 @@ nav h1 a {
   line-height: 1.1;
 }
 .inside #restaurant-img {
+  display: block;
+  margin: auto;
 	width: 100%;
-  max-width: none;
+  max-width: 400px;
 }
 #restaurant-address {
+  text-align: center;
   font-size: 1.8rem;
   margin: 1rem 0;
 }
@@ -307,6 +310,13 @@ nav h1 a {
   margin: 0 auto 2rem;
   overflow: hidden;
   padding: 0 20px 20px;
+}
+#restaurant-hours {
+  border-collapse: collapse;
+  margin: auto;
+}
+#restaurant-hours table, th, td {
+  border: 1px solid black;
 }
 #restaurant-hours td {
   color: #666;
@@ -385,8 +395,6 @@ nav h1 a {
 }
 /*
   TODO:
-  1) Center restaurant image in details page
-  2) Reposition maps to be second in order of flex-wrap
-  3) Change review text to be justified left
+  1) 
 
 */
