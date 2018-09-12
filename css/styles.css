@@ -360,7 +360,7 @@ nav h1 a {
 
 @media screen and (min-width: 470px) {
   html {
-    font-size: 12px;
+    /*font-size: 12px;*/
   }
   .filter-options select {
     width: 45%;
@@ -391,6 +391,50 @@ nav h1 a {
   }
   .filter-options h2 {
     width: 10%;
+  }
+}
+@media screen and (min-width: 520px) {
+  .inside {
+    max-width: 900px;
+    margin: auto;
+  }
+  #restaurant-container {
+    order: 1;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto;
+  }
+  .inside #restaurant-name {
+    margin-top: 0;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  .inside #restaurant-img {
+    width: 90%;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .inside #restaurant-cuisine {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+  }
+  .inside #restaurant-address {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+  }
+  .inside #restaurant-hours {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
   }
 }
 /*
