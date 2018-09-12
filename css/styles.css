@@ -252,8 +252,9 @@ nav h1 a {
   text-transform: uppercase;
   line-height: 1.1;
 }
-#restaurant-img {
+.inside #restaurant-img {
 	width: 100%;
+  max-width: none;
 }
 #restaurant-address {
   font-size: 1.8rem;
@@ -379,7 +380,8 @@ nav h1 a {
 }
 /*
   TODO:
-  1) Limit restaurant image heights to be more predictably stretched
-  2) Add media query for tablet-sized screens (increase to 2 images per column)
+  1) Center restaurant image in details page
+  2) Reposition maps to be second in order of flex-wrap
+  3) Change review text to be justified left
 
 */
