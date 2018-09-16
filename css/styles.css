@@ -122,7 +122,6 @@ nav h1 a {
   background-color: #ccc;
 }
 #map-container {
-  order: 2;
   background: blue none repeat scroll 0 0;
   right: 0;
   top: 8rem;
@@ -227,6 +226,7 @@ nav h1 a {
   z-index: 1000;
 }
 .inside #map-container {
+  order: 2;
   background: blue none repeat scroll 0 0;
   height: 27rem;
   right: 0;
@@ -442,4 +442,9 @@ nav h1 a {
   1) Implement responsive images
   2) Map out accessibility functionality currently offered on site
 
+*/
+
+/*
+<img src="images/space-needle.jpg" sizes="50vw"
+srcset="images/space-needle.jpg 200w, images/space-needle-2x.jpg 400w, images/space-needle-hd.jpg 600w">
 */
