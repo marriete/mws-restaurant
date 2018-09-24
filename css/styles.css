@@ -399,7 +399,7 @@ nav h1 a {
 @media screen and (min-width: 1200px) {
   body {
     width: 1200px;
-    margin: auto;  
+    margin: auto;
   }
   .filter-options h2 {
     width: 10%;
